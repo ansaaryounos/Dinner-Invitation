@@ -329,6 +329,24 @@ p {
     animation: drawlines 2s ease-out forwards;
 }
 
+@-moz-keyframes drawlines {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-o-keyframes drawlines {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-webkit-keyframes drawlines {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
 @keyframes drawlines {
     to {
         stroke-dashoffset: 0;
