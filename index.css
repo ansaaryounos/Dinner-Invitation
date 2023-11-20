@@ -323,6 +323,9 @@ p {
 }
 
 .quote-anim {
+    -webkit-animation:drawlines 2s ease-out forwards;
+    -moz-animation: drawlines 2s ease-out forwards;
+    -o-animation: drawlines 2s ease-out forwards;
     animation: drawlines 2s ease-out forwards;
 }
 
